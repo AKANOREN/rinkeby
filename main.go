@@ -4,8 +4,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/AKANOREN/go-utils/format"
-)
+	"github.com/AKANOREN/go-utils/format" // 大文字にする必要ある
+	// "github.com/akanoren/go-utils/format"
+	/* 以下のようなエラー
+	 * module declares its path as: github.com/AKANOREN/go-utils
+	 *        but was required as: github.com/akanoren/go-utils
+	 */)
 
 func main() {
 	fmt.Println("hello workd")
